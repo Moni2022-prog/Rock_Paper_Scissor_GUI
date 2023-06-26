@@ -95,6 +95,9 @@ play_again_button = Button(window, text="Play Again",font=('Roboto',14),bg="ligh
                            height=1,command=play_again)
 play_again_button.grid(row=8, column=1,pady=8)
 
+user_notes_label = Label(window, text="Press 'Play Again' after every choice ")
+user_notes_label.grid(row=9,column=1,pady=8)
+
 
 
 window.mainloop()
