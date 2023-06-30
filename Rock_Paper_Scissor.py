@@ -38,7 +38,7 @@ def rock():
     if comp_choice == "Paper":
         comp_score += 1
     if comp_choice == "Scissor":
-        comp_score += 1
+        your_score += 1
 
     points()
 
